@@ -1,0 +1,4 @@
+services:
+    nti.auto_delete:
+        class: NTI\AutoDeleteBundle\Service\CleanDirectoryService
+        arguments: ["@service_container"]
