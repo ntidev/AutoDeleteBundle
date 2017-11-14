@@ -1,0 +1,31 @@
+{
+    "name" : "nti/auto-delete-bundle",
+    "description" : "Symfony NTIAutoDeleteBundle",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Benjamin Vison",
+        "email" : "benjamin@syneteksolutions.com"
+    }],
+    "keywords" : [
+        "AutoDeleteBundle"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+        "symfony/serializer": "2.x"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "NTI\\LogBundle" : ""
+        }
+    },
+    "target-dir" : "NTI/AutoDeleteBundle",
+    "repositories" : [{
+    }],
+    "extra" : {
+        "branch-alias" : {
+            "dev-master" : "1.0-dev"
+        }
+    }
+}
