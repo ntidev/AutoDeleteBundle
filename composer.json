@@ -17,7 +17,7 @@
     },
     "autoload" : {
         "psr-0" : {
-            "NTI\\LogBundle" : ""
+            "NTI\\AutoDeleteBundle" : ""
         }
     },
     "target-dir" : "NTI/AutoDeleteBundle",
