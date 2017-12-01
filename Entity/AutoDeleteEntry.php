@@ -46,7 +46,7 @@ class AutoDeleteEntry
     /**
      * @var boolean
      *
-     * @ORM\Column(name="recursive", type="boolean")
+     * @ORM\Column(name="is_recursive", type="boolean")
      */
     private $recursive;
 
