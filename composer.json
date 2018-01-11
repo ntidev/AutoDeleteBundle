@@ -12,8 +12,7 @@
     "license" : [
         "MIT"
     ],
-    "require" : {
-        "symfony/serializer": "2.x"
+    "require" : {       
     },
     "autoload" : {
         "psr-0" : {
