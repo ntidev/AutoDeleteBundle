@@ -32,8 +32,8 @@ class RemoveAutoDeleteEntryCommand extends ContainerAwareCommand
             $em->flush();
             $output->writeln("<success>Success: The AutoDeleteEntry was successfully deleted.</success>");
         } catch (\Exception $ex) {
-            if($this->getContainer()->has('nti.logger')) {
-                $this->getContainer()->get('nti.logger')->logException($ex);
+            if($this->getContainer()->has('logger')) {
+                $this->getContainer()->get('logger')->error($ex);
             }
             $output->writeln("<error>Error: ".$ex->getMessage()."</error>");
         }
